@@ -1,4 +1,4 @@
-html {
+/* html {
     height: 100%
  }
 
@@ -20,6 +20,23 @@ html {
     margin: 30px 30px 30px 30px
 }
  
+.article-content {
+    margin-left: 30px;
+}
+
+/* .bio-content {
+    padding: 0 15px;
+    float: right;
+} */
+
+p {
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    color: #777777;
+    text-align-last: auto;
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -29,14 +46,6 @@ html {
     height: auto;
 }
 
-
-p {
-    line-height: 20px;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 20px;
-    color: black;
-    text-align-last: auto;
-}
  
  
 body {
@@ -66,13 +75,8 @@ element.style {
 }
 
 
-.section {
+/* .section {
     width: 918px;
     height: 450px;
     padding: 20px;
-}
-
-
- .alert alert-warning {
-    background-color: red
- }
+} */ */
