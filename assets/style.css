@@ -8,8 +8,9 @@ body {
     columns: #dddddd;;
     border-bottom: 3px solid #777777;
     font-weight: bold; 
-    font-size: xx-large
-    /* margin: 30px 30px 30px 30px */
+    font-size: 30px;
+    color: #0bb0b0
+
 } 
 
 p {
@@ -17,10 +18,11 @@ p {
     color: #777777;
 }
 .col-md-9 {
-    font-size: 20px;
+    font-size: 18px;
 }
 footer {
     position: fixed;
+    border-top: 3px solid #0bb0b0;
     bottom: 0;
     width: 100%;
 }
