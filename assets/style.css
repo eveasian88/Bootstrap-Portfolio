@@ -3,31 +3,25 @@ body {
     background: url(./images/fresh_snow2.png) 100% 100%;
 }
 
-
 .myborderline {   
     font-family: 'Georgia', Times, Times New Roman, serif;
     columns: #dddddd;;
-    border-bottom: 3px solid #777777;
+    border-bottom: 4px solid #777777;
     font-weight: bold; 
     font-size: 30px;
     color: #0bb0b0
 } 
 
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-}
-
-
-.col-md-9 {
     font-size: 18px;
+    text-align: justify
 }
-
 
 footer {
     position: fixed;
-    border-top: 3px solid #0bb0b0;
+    border-top: 5px solid #0bb0b0;
     bottom: 0;
     width: 100%;
 }
