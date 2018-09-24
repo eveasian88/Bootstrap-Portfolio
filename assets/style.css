@@ -20,11 +20,6 @@ p {
     text-align: justify
 }
 
-.btn,
-btn-info { 
-    overflow: auto; 
-}
-
 
 footer {
     position: fixed;
