@@ -20,6 +20,22 @@ p {
     text-align: justify
 }
 
+img {
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+}
+
 
 footer {
     position: fixed;
