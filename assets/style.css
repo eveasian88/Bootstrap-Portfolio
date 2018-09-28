@@ -12,9 +12,11 @@ body {
     padding-bottom: 20px;
 }
 
+
 .logo {
     height: 75px;
 }
+
 
 .myborderline {   
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -24,7 +26,6 @@ body {
     font-size: 30px;
     color: #0bb0b0;
 } 
-
 
 
 p {
