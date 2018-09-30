@@ -54,9 +54,8 @@ img {
 
 
 footer {
-    position: fixed;
+    position: relative;
     border-top: 5px solid #0bb0b0;
     bottom: 0;
     width: 100%;
 }
-
