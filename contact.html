@@ -2,114 +2,116 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link href="./assets/style.css" rel="stylesheet" type="text/css">
-
-  <title>Contact</title>
+	<meta charset="UTF-8">
+	<title>About | Susye Weng-Reeder</title>
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">		
 </head>
-
-
+	
 <body>
 
-  <!--bootstrap navigation bar begins-->
-  <div class="container-fluid">
-    <div class="row logo px-3 bg-light">
-      <div class="col">
-        <nav class="navbar navbar-expand-sm navbar-light text-right my-0 mx-4 fixed-top">
-          <!-- Brand -->
-          <h2 class="navbar-brand px-4 text-white">SUSYE WENG-REEDER</h2>
-          <!-- Links -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon">
-            </span>
-          </button>
-          <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <br />
-  <br />
-  <!--/bootstrap navigation ends-->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" id ="logo-nl" href="index.html">Susye Weng-Reeder</a>
+			</div>
+			
+			<ul class="nav navbar-nav navbar-right" id=nav>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div><!-- /.container-fluid -->
+	</nav>
 
+	<div class="container">
+		<div class="row">
 
-  <!--css styling begins-->
-  <div class="container bg-light">
-    <div class="row-12">
-      <p class="myborderline">Contact</p>
-      <br />
-    </div>
-    <!--/css styling ends-->
+			<div class="col-md-1">
+			</div>
 
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					
+					<div class="panel-heading">
+						<h3 class="panel-title">Contact</h3>
+					</div>
 
-    <!--bootstrap form begins-->
-    <div class="article">
-      <article class="article-content">
+					<div class="panel-body">
+						<form>
+ 							<div class="form-group">
+    						<label for="name">Name</label>
+    						<input type="text" class="form-control" id="name" placeholder="John Smith" required="required">
+ 							</div>
 
-        <section class="container bg-light">
-          <div class="row-12">
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+ 							<div class="form-group">
+   							<label for="email">Email</label>
+   							<input type="email" class="form-control" id="email" placeholder="example@gmail.com" required="required">
+  						</div>
+
+  						<div class="form-group">
+   							<label for="message">Message</label>
+                 <textarea class="form-control" rows="3" id="message" required="required"></textarea>
+                 <br/>
+  						</div>
+							
+              <button type="submit" class="btn btn-default">Submit</button>
+              <br/>
+              <br/>
+              <br/>
+						</form>
+					</div>	
+        </div>
+        <br/>
+        <br/>
+        
+
+			</div>
+			
+			<div class="col-md-1">
+			</div>
+			
+			<div class="col-md-3">
+				<div class="panel panel-primary" id="sidebar">
+							
+					<div class="panel-heading">
+						<h3 class="panel-title">Connect</h3>
+					</div>
+							
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/eveasian88" target="_blank" class="thumbnail">
+                  <img src="./assets/images/github.png" alt="GitHub" class="img-responsive social"></a>
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="j.doe@gmail.com">
+
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/susye-weng-reeder/" target="_blank" class="thumbnail"><img src="./assets/images/linkedin.png"
+                    alt="LinkedIn" class="img-responsive social"></a>
               </div>
-          </div>
-          <div class="form-group">
 
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          </form>
-
-          <input class="btn btn-info" type="submit" value="Submit">
-    </div>
-    <br />
-    <br />
-    </section>
-    </article>
-  </div>
-  <!--/bootstrap form ends-->
-
-
-  <!--boostrap footer begins-->
-  <div class="container-fluid">
-    <div style="margin-top: 10%" class="row">
-      <div class="col-12">
-        <footer>
-          <span class="copyright">
-            <div class="alert alert-secondary bg-secondary" role="alert">
-              <p class="text-center text-light"> &copy; Susye Weng-Reeder 2018</p>
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/9991903/eveasian88" target="_blank" class="thumbnail"><img src="./assets/images/stackoverflow.png"
+                    alt="stackoverflow" class="img-responsive social"></a>
+              </div>
             </div>
-          </span>
-        </footer>
+          </div>
+        </div>
       </div>
+
+      <div class="col-md-1">
+      </div>
+
     </div>
   </div>
-  <!--/bootstrap footer ends-->
 
+  <footer class="footer">
+    <div class="container" id="footer-text">
+      <p class="text-muted">Copyright &reg; 2018 Susye Weng-Reeder</p>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -117,7 +119,6 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-
 
 </body>
 
