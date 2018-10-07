@@ -1,123 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>About | Susye Weng-Reeder</title>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>About | Susye Weng-Reeder</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="./assets/style.css">
+        
 
 </head>
-
 <body>
 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" id="logo-nl" href="index.html">Susye Weng-Reeder</a>
-            </div>
+<header id="masthead">	
+<!-- rows function in containers (grid created) -->
+ <div class="container">
 
-            <ul class="nav navbar-nav navbar-right" id=nav>
-                <li class="active"><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- /.container-fluid -->
-    </nav>
+    <!-- columns function in rows -->
+    <div class="row">
+		
+				
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a id="logo" class="navbar-brand"  href="./index.html">Susye Weng-Reeder</a>	
+		
+		
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- collect nav links, forms, and other content for toggling -->
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="./index.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>                            
+					<li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+			</ul>
+		</div> <!-- navbar-collapse -->
+		
+	    </nav>		
 
-    <div class="container">
-        <div class="row">
+	</div>
+</div>
+</header>
 
-            <div class="col-md-1">
-            </div>
+<br>
+<div id="main-container" class="container">
+	<section class="main-section">
+	<div class="row">
+		<div class="col-md-12">
+        <h1>About Me</h1>
+		
+		<figure class="left">
+	        <img src="./assets/images/Enlight391.jpg" alt="EveAsian" > 
+		</figure>
+        <p>Skater: <strong>#88 EVE ASIAN</strong></p>
+        <p><strong>WFTDA:</strong> Resurrection Roller Girls</p>
+        <p><strong>Position:</strong> Jammer</p>
+        <p><strong>Likes:</strong> Dragons; firecrackers; food and travel; strength training, yoga, and dance; sports massages and spa treatments; spelunking; rappelling; fashion in all shades of red.</p>
+        <p><strong>Dislikes:</strong> Snakes and spiders; narrow minded and stubborn individuals; haters; insecure people; ostentatious jewelry; taxes.</p>
+        <p><strong>Roller Derby Bio:</strong> Eve Asian is an accomplished polyglot. She has set foot on all non-frozen continents, having visited over 30 countries. As a young child, she was always caught 
+        fighting on the playground protecting her friends. Even though she wasn’t born on the year of the dragon, she is powerful, brave, compassionate and loyal to her teammates. Off the track, you can catch 
+        Eve Asian hiking some obscure trail, skiing neighboring slopes, surfing international waters and spending quality time with her family and friends.</p>
+		</div>
+    </div>  
+    </section>
+</div>
 
-            <div class="col-md-6">
-                <div class="panel panel-primary">
+<footer>
+<div class="container">
+	<div class="row"> 
+			<div class="col-md-12" id="container"> Copyright © 2018 Susye Weng-Reeder</div>
+	</div>		
 
-                    <div class="panel-heading">
-                        <h3 class="panel-title">About Me</h3>
-                    </div>
+</div>
+</footer>
 
-                    <div class="panel-body">
-                        <img id="bio-image" class="img-responsive pull-left" alt="Responsive image" src="assets/images/Enlight391.jpg"
-                            alt="Eve Asian">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-                        <p>Skater: <strong>#88 EVE ASIAN</strong></p>
-
-                        <p><strong>WFTDA:</strong> Resurrection Roller Girls</p>
-
-                        <p><strong>Position:</strong> Jammer</p>
-
-                        <p><strong>Likes:</strong> Dragons; firecrackers; food and travel; strength training, yoga, and
-                            dance; sports massages and spa treatments; spelunking; rappelling; fashion in all shades of
-                            red.</p>
-
-                        <p><strong>Dislikes:</strong> Snakes and spiders; narrow minded and stubborn individuals;
-                            haters; insecure people; ostentatious jewelry; taxes.</p>
-
-                        <p><strong>Roller Derby Bio:</strong> Eve Asian is an accomplished polyglot. She has set
-                            foot on all non-frozen continents, having visited over 30 countries. As a young child, she
-                            was always caught fighting on the playground protecting her friends. Even though she wasn’t
-                            born on the year of the dragon, she is powerful, brave, compassionate and loyal to her
-                            teammates. Off the track, you can catch Eve Asian hiking some obscure trail, skiing
-                            neighboring slopes, surfing international waters and spending quality time with her family
-                            and friends.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-1">
-            </div>
-
-            <div class="col-md-3">
-                <div class="panel panel-primary" id="sidebar">
-
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Connect</h3>
-                    </div>
-
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="https://github.com/eveasian88" target="_blank" class="thumbnail">
-                                    <img src="./assets/images/github.png" alt="GitHub" class="img-responsive social"></a>
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="https://www.linkedin.com/in/susye-weng-reeder/" target="_blank" class="thumbnail"><img
-                                        src="./assets/images/linkedin.png" alt="LinkedIn" class="img-responsive social"></a>
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="https://stackoverflow.com/users/9991903/eveasian88" target="_blank" class="thumbnail"><img
-                                        src="./assets/images/stackoverflow.png" alt="stackoverflow" class="img-responsive social"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-1">
-            </div>
-
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="container" id="footer-text">
-            <p class="text-muted">Copyright &reg; 2018 Susye Weng-Reeder</p>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 
 </body>
-
 </html>
